@@ -1,22 +1,39 @@
 html {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  background-color: rgb(146, 227, 146);
 }
 
 .recipe-list {
-    text-align: center;
-    background-color: rgb(68, 169, 0);
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.main-page-recipe-link {
+  text-align: center;
+  margin: 12px;
+  background-color: mistyrose;
+  font-size: 30px;
+  padding:12px;
+  display: inline-block;  
+}
 
-.recipe-list a {
-    padding-left: 40%;
-    padding-right: 40%;
+.main-page-recipe-link img {
+  display:block;
+  margin: auto;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.main-page-recipe-link a {
+  padding-bottom: 430px;
 }
